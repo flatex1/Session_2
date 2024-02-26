@@ -1,0 +1,22 @@
+﻿<Window x:Class="MedicalWPF_Session_2.PatientTrackingPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MedicalWPF_Session_2"
+        WindowStartupLocation="CenterScreen"
+        mc:Ignorable="d"
+        Title="PatientTrackingPage" Height="650" Width="1540">
+    <Grid x:Name="MainGrid" Background="Bisque">
+        
+        <Image Source="Models/place.png" Grid.ColumnSpan="14"/>
+        <StackPanel Tag="17" RenderTransformOrigin="-6.66,-1.36" Margin="10,51,1469,393">
+            
+        </StackPanel>
+        <StackPanel Tag="18" RenderTransformOrigin="-6.66,-1.36" Margin="76,51,1403,393"/>
+        <StackPanel Tag="19" RenderTransformOrigin="-6.66,-1.36" Margin="142,51,1265,393"/>
+        <StackPanel Tag="20" RenderTransformOrigin="-6.66,-1.36" Margin="275,51,1197,393"/>
+        
+        
+    </Grid>
+</Window>
